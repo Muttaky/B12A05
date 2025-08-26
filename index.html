@@ -7,6 +7,18 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 <script src="https://kit.fontawesome.com/58719d6587.js" crossorigin="anonymous"></script>
+<style>
+  @media (max-width: 500px) {
+  .btn{
+    font-size: 10px !important; 
+    padding:5px !important; 
+    margin:5px !important; 
+  }
+  .card{
+        width:90% !important; 
+  }
+}
+</style>
 </head>
 <body class="bg-green-50">
     <header class="text-center">
@@ -184,7 +196,7 @@
 </div>
         </section>
 
-        <section class="w-60 bg-white m-5 rounded-xl">
+        <section class="hist w-60 bg-white m-5 rounded-xl">
             <div>
                  <button class="btn bg-white border-white"><i class="fa-regular fa-clock"></i>Call History</button>
                 <button id="clear" class="btn bg-green-600 m-5 rounded-3xl text-white">Clear</button>                    
