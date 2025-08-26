@@ -6,12 +6,13 @@
     <title>Emergency Service Directory</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<script src="https://kit.fontawesome.com/58719d6587.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="bg-green-50">
     <header class="text-center">
         <section id="navBar" class="flex justify-between">
             <div>
-                <button class="btn bg-white border-white m-5 font-bold text-green-900"><img class="w-10" src="images/logo.png" alt="">Emergency <br>Service</button>
+                <button class="btn bg-green-50 border-green-50 m-5 font-bold text-green-900"><img class="w-10" src="images/logo.png" alt="">Emergency <br>Service</button>
             </div>
             <div>
                 <button class="btn bg-green-10 m-5 bg-green-100 rounded-3xl">0<img class="w-5" src="images/heart.png" alt="">
@@ -26,8 +27,162 @@
         </section>
     </header>
     <main>
-        <section id="hotline"></section>
-        <section id="history"></section>
+        <section id="hotline" class="grid grid-cols-1 gap-2 sm:grid-cols-3">
+            <div class="card w-60 bg-base-100 shadow-sm m-5">
+  <div class="card-body">
+
+    <div class="flex justify-between">
+    <span class="w-10"><img src="images/emergency.png" alt=""></span>
+      <span id="heart" class="text-xl"><i class="fa-regular fa-heart"></i></span>
+    </div>
+          <h2 class="text-md font-bold">National Emergency Number</h2>
+        <span class="text-xs">National Emergency</span>
+          <h2 class="text-md font-bold">999</h2>
+        <span class="text-xs badge bg-slate-200">All</span>
+        <div class="flex justify-between">
+      <button id="copy" class="btn text-xs"><i class="fa-regular fa-copy"></i>Copy</button>
+      <button id="call" class="btn bg-green-600 text-white text-xs"><i class="fa-solid fa-phone"></i>Call</button>
+    </div>
+  </div>
+</div>
+            <div class="card w-60 bg-base-100 shadow-sm m-5">
+  <div class="card-body">
+
+    <div class="flex justify-between">
+    <span class="w-10"><img src="images/police.png" alt=""></span>
+      <span id="heart" class="text-xl"><i class="fa-regular fa-heart"></i></span>
+    </div>
+          <h2 class="text-md font-bold">Police Helpline Number</h2>
+        <span class="text-xs">Police</span>
+          <h2 class="text-md font-bold">999</h2>
+        <span class="text-xs badge bg-slate-200">Police</span>
+        <div class="flex justify-between">
+      <button id="copy" class="btn text-xs"><i class="fa-regular fa-copy"></i>Copy</button>
+      <button id="call" class="btn bg-green-600 text-white text-xs"><i class="fa-solid fa-phone"></i>Call</button>
+    </div>
+  </div>
+</div>
+            <div class="card w-60 bg-base-100 shadow-sm m-5">
+  <div class="card-body">
+
+    <div class="flex justify-between">
+    <span class="w-10"><img src="images/fire-service.png" alt=""></span>
+      <span id="heart" class="text-xl"><i class="fa-regular fa-heart"></i></span>
+    </div>
+          <h2 class="text-md font-bold">Fire Service Number</h2>
+        <span class="text-xs">Fire Service</span>
+          <h2 class="text-md font-bold">999</h2>
+        <span class="text-xs badge bg-slate-200">fire</span>
+        <div class="flex justify-between">
+      <button id="copy" class="btn text-xs"><i class="fa-regular fa-copy"></i>Copy</button>
+      <button id="call" class="btn bg-green-600 text-white text-xs"><i class="fa-solid fa-phone"></i>Call</button>
+    </div>
+  </div>
+</div>
+            <div class="card w-60 bg-base-100 shadow-sm m-5">
+  <div class="card-body">
+
+    <div class="flex justify-between">
+    <span class="w-10"><img src="images/ambulance.png" alt=""></span>
+      <span id="heart" class="text-xl"><i class="fa-regular fa-heart"></i></span>
+    </div>
+          <h2 class="text-md font-bold">Ambulance Service</h2>
+        <span class="text-xs">Ambulance</span>
+          <h2 class="text-md font-bold">1994-999999</h2>
+        <span class="text-xs badge bg-slate-200">Health</span>
+        <div class="flex justify-between">
+      <button id="copy" class="btn text-xs"><i class="fa-regular fa-copy"></i>Copy</button>
+      <button id="call" class="btn bg-green-600 text-white text-xs"><i class="fa-solid fa-phone"></i>Call</button>
+    </div>
+  </div>
+</div>
+            <div class="card w-60 bg-base-100 shadow-sm m-5">
+  <div class="card-body">
+
+    <div class="flex justify-between">
+    <span class="w-10"><img src="images/emergency.png" alt=""></span>
+      <span id="heart" class="text-xl"><i class="fa-regular fa-heart"></i></span>
+    </div>
+          <h2 class="text-md font-bold">Women & Child Helpline</h2>
+        <span class="text-xs">Women & Child Helpline</span>
+          <h2 class="text-md font-bold">109</h2>
+        <span class="text-xs badge bg-slate-200">Help</span>
+        <div class="flex justify-between">
+      <button id="copy" class="btn text-xs"><i class="fa-regular fa-copy"></i>Copy</button>
+      <button id="call" class="btn bg-green-600 text-white text-xs"><i class="fa-solid fa-phone"></i>Call</button>
+    </div>
+  </div>
+</div>
+            <div class="card w-60 bg-base-100 shadow-sm m-5">
+  <div class="card-body">
+
+    <div class="flex justify-between">
+    <span class="w-10"><img src="images/emergency.png" alt=""></span>
+      <span id="heart" class="text-xl"><i class="fa-regular fa-heart"></i></span>
+    </div>
+          <h2 class="text-md font-bold">Anti-Corruption Helpline</h2>
+        <span class="text-xs">Anti-Corruption</span>
+          <h2 class="text-md font-bold">106</h2>
+        <span class="text-xs badge bg-slate-200">Govt.</span>
+        <div class="flex justify-between">
+      <button id="copy" class="btn text-xs"><i class="fa-regular fa-copy"></i>Copy</button>
+      <button id="call" class="btn bg-green-600 text-white text-xs"><i class="fa-solid fa-phone"></i>Call</button>
+    </div>
+  </div>
+</div>
+            <div class="card w-60 bg-base-100 shadow-sm m-5">
+  <div class="card-body">
+
+    <div class="flex justify-between">
+    <span class="w-10"><img src="images/emergency.png" alt=""></span>
+      <span id="heart" class="text-xl"><i class="fa-regular fa-heart"></i></span>
+    </div>
+          <h2 class="text-md font-bold">Electricity Helpline</h2>
+        <span class="text-xs">Electricity Outage</span>
+          <h2 class="text-md font-bold">16216</h2>
+        <span class="text-xs badge bg-slate-200">Electricity</span>
+        <div class="flex justify-between">
+      <button id="copy" class="btn text-xs"><i class="fa-regular fa-copy"></i>Copy</button>
+      <button id="call" class="btn bg-green-600 text-white text-xs"><i class="fa-solid fa-phone"></i>Call</button>
+    </div>
+  </div>
+</div>
+            <div class="card w-60 bg-base-100 shadow-sm m-5">
+  <div class="card-body">
+
+    <div class="flex justify-between">
+    <span class="w-10"><img src="images/brac.png" alt=""></span>
+      <span id="heart" class="text-xl"><i class="fa-regular fa-heart"></i></span>
+    </div>
+          <h2 class="text-md font-bold">Brac Helpline</h2>
+        <span class="text-xs">Brac</span>
+          <h2 class="text-md font-bold">16445</h2>
+        <span class="text-xs badge bg-slate-200">NGO</span>
+        <div class="flex justify-between">
+      <button id="copy" class="btn text-xs"><i class="fa-regular fa-copy"></i>Copy</button>
+      <button id="call" class="btn bg-green-600 text-white text-xs"><i class="fa-solid fa-phone"></i>Call</button>
+    </div>
+  </div>
+</div>
+            <div class="card w-60 bg-base-100 shadow-sm m-5">
+  <div class="card-body">
+
+    <div class="flex justify-between">
+    <span class="w-10"><img src="images/Bangladesh-Railway.png" alt=""></span>
+      <span id="heart" class="text-xl"><i class="fa-regular fa-heart"></i></span>
+    </div>
+          <h2 class="text-md font-bold">Bangladesh Railway Helpline </h2>
+        <span class="text-xs">Bangladesh Railway</span>
+          <h2 class="text-md font-bold">163</h2>
+        <span class="text-xs badge bg-slate-200">Travel</span>
+        <div class="flex justify-between">
+      <button id="copy" class="btn text-xs"><i class="fa-regular fa-copy"></i>Copy</button>
+      <button id="call" class="btn bg-green-600 text-white text-xs"><i class="fa-solid fa-phone"></i>Call</button>
+    </div>
+  </div>
+</div>
+        </section>
+        <section id="history"><i class="fa-regular fa-clock"></i></section>
     </main>
     <script src="script.js"></script>
 </body>
