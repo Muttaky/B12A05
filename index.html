@@ -26,7 +26,7 @@
             <p class="text-sm text-white p-5">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
         </section>
     </header>
-    <main>
+    <main class="flex justify-around">
         <section id="hotline" class="grid grid-cols-1 gap-2 sm:grid-cols-3">
             <div class="card w-60 bg-base-100 shadow-sm m-5">
   <div class="card-body">
@@ -182,7 +182,14 @@
   </div>
 </div>
         </section>
-        <section id="history"><i class="fa-regular fa-clock"></i></section>
+
+        <section id="history" class="w-60 bg-white m-5 rounded-xl">
+            <div>
+                 <button class="btn bg-white border-white"><i class="fa-regular fa-clock"></i>Call History</button>
+                <button class="btn bg-green-600 m-5 rounded-3xl text-white">Clear</button>
+                                
+            </div>
+        </section>
     </main>
     <script src="script.js"></script>
 </body>
