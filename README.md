@@ -1,4 +1,4 @@
-# B12A05 – Responsive Frontend Website
+# Emergency Service Directory – Responsive Frontend Website
 
 A clean and responsive frontend website built with pure HTML, CSS, and JavaScript.  
 This project focuses on layout design, responsiveness, and smooth user experience.
@@ -37,3 +37,4 @@ _No external dependencies — pure HTML, CSS, JS._
 ---
 
 ## 🧑‍💻 Run Locally
+use git clone 
